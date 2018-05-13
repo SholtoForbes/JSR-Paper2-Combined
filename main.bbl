@@ -1,0 +1,179 @@
+\begin{thebibliography}{28}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{{Office of Commercial Space Transportation (AST) and the Commercial
+  Space Transportation Advisory Committee
+  (COMSTAC)}(2015)}]{Faa&Ast&Comstac2015}
+{Office of Commercial Space Transportation (AST) and the Commercial Space
+  Transportation Advisory Committee (COMSTAC)}, \emph{{2015 Commercial Space
+  Transportation Forecasts}}, May, Office of Commercial Space Transportation,
+  Washington, DC, 2015.
+
+\bibitem[{McIntyre(2016)}]{Maddock2016}
+McIntyre, S., \enquote{{Andy and Feast , Simon ( 2016 ) How to launch small
+  payloads ? Evaluation of current and future small payload launch systems . In
+  : 14th and future small payload launch systems},} 2016.
+
+\bibitem[{Crisp et~al.(2015)Crisp, Smith, and Hollingsworth}]{Crisp2015}
+Crisp, N.~H., Smith, K., and Hollingsworth, P., \enquote{{Launch and deployment
+  of distributed small satellite systems},} \emph{Acta Astronautica}, Vol. 114,
+  2015, pp. 65--78.
+\newblock \doi{10.1016/j.actaastro.2015.04.015},
+  \urlprefix\url{http://dx.doi.org/10.1016/j.actaastro.2015.04.015}.
+
+\bibitem[{Maddock et~al.(2017)Maddock, Toso, Ricciardi, Mogavero, Lo,
+  Rengarajan, Kontis, Milne, Evans, West, and McIntyre}]{Maddock2017}
+Maddock, C., Toso, F., Ricciardi, L., Mogavero, A., Lo, K.~H., Rengarajan, S.,
+  Kontis, K., Milne, A., Evans, D., West, M., and McIntyre, S.,
+  \enquote{{Vehicle and Mission Design of a Future Small Payload Launcher},}
+  \emph{21st AIAA International Space Planes and Hypersonics Technologies
+  Conference}, , No. March, 2017, pp. 1--20.
+\newblock \doi{10.2514/6.2017-2224},
+  \urlprefix\url{https://arc.aiaa.org/doi/10.2514/6.2017-2224}.
+
+\bibitem[{Kuhn et~al.(2017)Kuhn, M\"{u}ller, Petkov, Oving, van Kleef,
+  Verberne, Haemmerli, and Boiron}]{Kuhn2017}
+Kuhn, M., M\"{u}ller, I., Petkov, I., Oving, B., van Kleef, A.~J., Verberne,
+  C.~J., Haemmerli, B., and Boiron, A., \enquote{{Innovative European Launcher
+  Concept SMILE},} \emph{21st AIAA International Space Planes and Hypersonics
+  Technologies Conference}, , No. March, 2017, pp. 1--14.
+\newblock \doi{10.2514/6.2017-2441},
+  \urlprefix\url{https://arc.aiaa.org/doi/10.2514/6.2017-2441}.
+
+\bibitem[{Outreach(2017)}]{DARPA2017}
+Outreach, D., \enquote{{DARPA Picks Design for Next-Generation Spaceplane},} ,
+  2017.
+\newblock \urlprefix\url{https://www.darpa.mil/news-events/2017-05-24}.
+
+\bibitem[{Charania et~al.(2016)Charania, Isakowitz, Matsumori, Pomerantz,
+  Vaughn, Kubiak, and Caponio}]{charania}
+Charania, A.~C., Isakowitz, S., Matsumori, B., Pomerantz, W., Vaughn, M.,
+  Kubiak, H., and Caponio, D., \enquote{{SSC16-II-02 LauncherOne : Virgin
+  Galactic ' s Dedicated Launch Vehicle for Small Satellites},} \emph{30th
+  Annual AIAA/USU Conference on Small Satellites}, Logan, UT, 2016, pp. 1--8.
+
+\bibitem[{Gilmour(2017)}]{Gilmour}
+Gilmour, A., \enquote{{ROCKET STARTUP SHOOTS FOR THE STARS WITH AUD 5 MILLION (
+  USD 3 . 7 MILLION ) SERIES A FUNDING},} , 2017.
+
+\bibitem[{Zero2Infinity(2016)}]{Bloostar}
+Zero2Infinity, \enquote{{Bloostar},} , 2016.
+\newblock \urlprefix\url{http://www.zero2infinity.space/bloostar/}.
+
+\bibitem[{{China Spaceflight}(2017)}]{Linkspace}
+{China Spaceflight}, \enquote{{Linkspace},} , 2017.
+\newblock
+  \urlprefix\url{https://www.chinaspaceflight.com/satellite/Linkspace/Linkspace.html}.
+
+\bibitem[{VirginOrbit(2017)}]{Virgin}
+VirginOrbit, \enquote{{LauncherOne},} , 2017.
+\newblock \urlprefix\url{https://virginorbit.com/}.
+
+\bibitem[{Firefly(2017)}]{Firefly}
+Firefly, \enquote{{Firefly},} , 2017.
+\newblock \urlprefix\url{http://www.fireflyspace.com/}.
+
+\bibitem[{Aerospace(2017)}]{Lynx}
+Aerospace, X., \enquote{{Lynx Sppacecraft},} , 2017.
+\newblock \urlprefix\url{https://xcor.com/launch/lynx-spacecraft/}.
+
+\bibitem[{{Rocket Lab}(2016)}]{Electron}
+{Rocket Lab}, \enquote{{Electron},} , 2016.
+\newblock \urlprefix\url{https://www.rocketlabusa.com/electron/}.
+
+\bibitem[{Preller and Smart(2017)}]{Preller2017}
+Preller, D., and Smart, M.~K., \enquote{{Scramjets for Reusable Launch of Small
+  Satellites},} \emph{Journal of Spacecraft and Rockets}, Vol. Advance On,
+  2017, pp. 1--13.
+\newblock \doi{10.2514/6.2015-3586},
+  \urlprefix\url{http://arc.aiaa.org/doi/10.2514/6.2015-3586}.
+
+\bibitem[{Hellman(2005)}]{Hellman}
+Hellman, B.~M., \enquote{{Comparison of Return to Launch Site Options for a
+  Reusable Booster Stage},} Tech. rep., Space Sytems Design Lab, Georgia
+  Institute of technology, 2005.
+
+\bibitem[{Tetlow et~al.(1992)Tetlow, Sch-ograve, Ttle, and
+  Schneider}]{Tetlow1992}
+Tetlow, M.~R., Sch-ograve, U.~M., Ttle, and Schneider, G.~M.,
+  \enquote{{Comparison of Glideback and Flyback Boosters},} \emph{Journal of
+  Spacecraft and Rockets}, Vol.~38, No.~5, 1992, pp. 752--758.
+\newblock \doi{10.2514/2.3742},
+  \urlprefix\url{http://dx.doi.org/10.2514/2.3742}.
+
+\bibitem[{Mehta and Bowles(2001)}]{Mehta2001}
+Mehta, U.~B., and Bowles, J.~V., \enquote{{Two-Stage-to-Orbit Spaceplane
+  Concept with Growth Potential},} \emph{Journal of Propulsion and Power},
+  Vol.~17, No.~6, 2001, pp. 1149--1161.
+\newblock \doi{10.2514/2.5886}.
+
+\bibitem[{Wilhite et~al.(1991)Wilhite, Engelund, Stanley, and
+  Naftel}]{Wilhite1991}
+Wilhite, A.~W., Engelund, W.~C., Stanley, D.~O., and Naftel, J.~C.,
+  \enquote{{Technology and staging effects on two-stage-to-orbit systems},}
+  \emph{Journal of Spacecraft and Rockets}, Vol.~31, No.~1, 1991, pp. 31--39.
+\newblock \doi{10.2514/3.26399}.
+
+\bibitem[{Tsuchiya and Mori(2005)}]{Tsuchiya2005}
+Tsuchiya, T., and Mori, T., \enquote{{Optimal Design of Two-Stage-To-Orbit
+  Space Planes with Airbreathing Engines},} \emph{Journal of Spacecraft and
+  Rockets}, Vol.~42, No.~1, 2005, pp. 90--97.
+\newblock \doi{10.2514/1.8012}.
+
+\bibitem[{{Aftosmis, M. J., Berger} and Adomavicius(2000)}]{CART3D}
+{Aftosmis, M. J., Berger}, M.~J., and Adomavicius, G., \enquote{{A Parallel
+  Multilevel Method for Adaptively Refined Cartesian Grids with Embedded
+  Boundaries},} \emph{38th Aerospace Sciences Meeting and Exhibit}, Reno NV,
+  2000.
+
+\bibitem[{Aftosmis and Berger(1997)}]{Aftosmis1997}
+Aftosmis, M.~J., and Berger, M.~J., \enquote{{Robust and efficient Cartesian
+  mesh generation for component-based geometry Robust and Efficient Cartesian
+  Mesh Generation for Component-Based Geometry},} \emph{Aerospace}, , No.
+  January, 1997.
+
+\bibitem[{Sagerman et~al.(2017)Sagerman, Rumpfkeil, Hellman, and
+  Dasque}]{Sagerman2017}
+Sagerman, D.~G., Rumpfkeil, M.~P., Hellman, B.~M., and Dasque, N.,
+  \enquote{{Comparisons of Measured and Modeled Aero-thermal Distributions for
+  Complex Hypersonic Configurations},} \emph{55th AIAA Aerospace Sciences
+  Meeting}, , No. January, 2017, pp. 1--22.
+\newblock \doi{10.2514/6.2017-0264},
+  \urlprefix\url{http://arc.aiaa.org/doi/10.2514/6.2017-0264}.
+
+\bibitem[{Aftosmis et~al.(2011)Aftosmis, Nemec, and Cliff}]{Aftosmis2011}
+Aftosmis, M.~J., Nemec, M., and Cliff, S.~E., \enquote{{Adjoint-based low-boom
+  design with Cart3D},} \emph{29th AIAA Applied Aerodynamics Conference 2011},
+  2011, pp. 1--17.
+\newblock \doi{doi:10.2514/6.2011-3500},
+  \urlprefix\url{http://www.scopus.com/inward/record.url?eid=2-s2.0-84872373928\&partnerID=tZOtx3y1}.
+
+\bibitem[{Patterson et~al.(2015)Patterson, Ph, Rao, and Ph}]{Patterson2015}
+Patterson, M.~a., Ph, D., Rao, A.~V., and Ph, D., \enquote{{GPOPS-II manul: A
+  General-Purpose MATLAB Software for Solving Multiple-Phase Optimal Control
+  Problems Version 2 . 1},} Tech. Rep. October, 2015.
+
+\bibitem[{Josselyn and Ross(2002)}]{Josselyn2002a}
+Josselyn, S., and Ross, I.~M., \enquote{{Rapid Verification Method for the
+  Trajectory Optimization of Reentry Vehicles},} \emph{Notes}, Vol.~26, No.~3,
+  2002, pp. 505--508.
+\newblock \doi{10.2514/2.5074}.
+
+\bibitem[{Eggers et~al.(1957)Eggers, Allen, and Neice}]{Eggers1957}
+Eggers, B. A.~J., Allen, H.~J., and Neice, S.~E., \enquote{{Technical Note
+  4046},} , No. October, 1957.
+
+\bibitem[{Kanda and Hiraiwa(2007)}]{Kanda2007}
+Kanda, T., and Hiraiwa, T., \enquote{{Evaluation of Effectiveness of Periodic
+  Flight by a Hypersonic Vehicle},} \emph{Journal of Aircraft}, Vol.~44, No.~6,
+  2007, pp. 2076--2077.
+\newblock \doi{10.2514/1.31143}.
+
+\end{thebibliography}

@@ -1,3 +1,13 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
-I found no \bibstyle command---while reading file main.aux
-(There was 1 error message)
+The style file: new-aiaa.bst
+Database file #1: library.bib
+Warning--empty journal in Maddock2016
+Warning--there's a number but no volume in Maddock2017
+Warning--there's a number but no volume in Kuhn2017
+Warning--empty pages in CART3D
+Warning--there's a number but no volume in Aftosmis1997
+Warning--there's a number but no volume in Sagerman2017
+Warning--missing institution in Patterson2015
+Warning--empty journal in Eggers1957
+Warning--there's a number but no volume in Eggers1957
+(There were 9 warnings)

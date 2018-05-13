@@ -1,6 +1,6 @@
 %\documentclass[conf]{new-aiaa}
-%\documentclass[journal]{new-aiaa} %for journal papers
-\documentclass{article}
+\documentclass[journal]{new-aiaa} %for journal papers
+%\documentclass{article}
 \usepackage[utf8]{inputenc}
 
 \usepackage{graphicx}
@@ -12,7 +12,7 @@
 \usepackage{subcaption}
 \usepackage{float}
 
-\usepackage[margin=0.8in]{geometry}
+%\usepackage[margin=0.8in]{geometry}
 
 %\usepackage[utf8]{inputenc}
 %\usepackage[english]{babel}
@@ -186,7 +186,7 @@ AND TRIM/CG VARIATION
 \section{Trajectory Optimisation}\label{sec:opt}
 The optimisation of the trajectories in this study are performed using LODESTAR. LODESTAR is a trajectory optimisation tool under development at The University of Queensland for hypersonic vehicle analysis [REFXX]. LODESTAR generates optimal trajectories given a target cost function, and sets of initial and end constraints. LODESTAR utilises the pseudospectral method optimisation softwares GPOPS-2\cite{Patterson2015} and DIDO (CITATION). 
 
-The pseudospectral method is a form of direct spectral collocation, in which a spectral collocation method is used to approximate the optimal control problem as a nonlinear programming problem. The pseudospectral method offers an accurate, robust optimal control solution with relatively good computational times, making it particularly applicable to complex hypersonic vehicle trajectories[REFXX].  The pseudospectral method has been successfully applied in a variety of aerospace applications. GPOPS-2 and DIDO are used widely within the aerospace field as solvers for complex aerospace vehicle trajectories.
+The pseudospectral method is a form of direct spectral collocation, in which a spectral collocation method is used to approximate the optimal control problem as a nonlinear programming problem. The pseudospectral method offers an accurate, robust optimal control solution with relatively good computational times, making it particularly applicable to complex hypersonic vehicle trajectories[REFXX].  The pseudospectral method has been successfully applied in a variety of aerospace applications. GPOPS-2 and DIDO are used widely within the aerospace field as solvers for complex aerospace vehicle trajectories [REFXX].
 
 
 \subsection{Dynamic Model}
@@ -230,12 +230,10 @@ where the coefficient of lift and drag are determined from the aerodynamic datab
 WILL NEED TO RESTRUCTURE THIS SCTION TO INCLUDE ASCENT
 
 
-The trajectory of the rocket-scramjet-rocket system is computed using LODESTAR. 
+The trajectory of the rocket-scramjet-rocket system is optimised using LODESTAR. The trajectory is optimised for maximum payload-to-orbit, and is constrained to fly back to the initial launch site, ending with flight conditions suitable for landing approach. 
 
 
-
-
-The fly-back of the SPARTAN is optimised using LODESTAR. The fly-back is optimised for minimum fuel usage, with initial conditions constrained to be similar to the intended third stage release point, and end position constrained within 12.7km of the initial launch site, at  15.3$^\circ$S,144.9$^\circ$E[REFXX]. The angle of attack is limited to 10$^\circ$, to ensure vehicle stability. The bank angle is limited to 90$^\circ$ to produce a conservative solution and to limit any possible design complications that may arise from inverted flight. The dynamic pressure is limited to 50kPa, the structural limit of the vehicle. The scramjet engines are limited to only operate above 20kPa dynamic pressure, an estimated lower limit on the operable mass flow rate.
+ The angle of attack is limited to 10$^\circ$, to ensure vehicle stability. The bank angle is limited to 90$^\circ$ to limit any possible design complications that may arise from inverted flight. The dynamic pressure is limited to 50kPa, the structural limit of the vehicle. The scramjet engines are limited to only operate above 20kPa dynamic pressure, an estimated lower limit on the operable mass flow rate.
 The end of the trajectory is constrained to sub-200m altitude, and greater than -10$^\circ$ trajectory angle to ensure that the SPARTAN can perform a landing manoeuvre. These constraints ensure that the vehicle is approaching the landing site at the end of the optimised trajectory. The end velocity is left unconstrained. It is assumed that for an optimal flyback trajectory, the end velocity will be minimised. 
 It is also assumed that the vehicle is able to carry any necessary fuel is addition to the fuel required during the ascent trajectory, allowing the initial conditions to be kept constant. 
 
@@ -246,7 +244,42 @@ It is also assumed that the vehicle is able to carry any necessary fuel is addit
 	\label{fig:lon-lat}
 \end{figure} 
 
-\subsection{Optimised Ascent}
+\subsection{Ascent}
+
+\subsubsection{First Stage}
+
+\subsubsection{Second Stage}
+
+- small deviation from 50kPa before pull-up.
+- need to plot heading angle 
+- its heading out with fairly constant bank, except for at the start when it wants high altitude.  Then its turning quickly before pull-up, minimise downrange, maximise crossrange 
+
+
+- emphasise trade-off between second stage ascent and return
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/AscentTraj}
+	\caption{}
+	\label{fig:ascenttraj}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/AscentAero}
+	\caption{}
+	\label{fig:ascentaero}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/AscentVehicle}
+	\caption{}
+	\label{fig:ascentvehicle}
+\end{figure}
+
+
+\subsubsection{Third Stage}
 
 \subsection{Fly-Back Trajectory}
  
